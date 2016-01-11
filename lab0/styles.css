@@ -5,6 +5,11 @@ body {
 	background-color: #dfd;
 }
 
+img {
+	width: 100%;
+	height: auto;
+}
+
 #sexy-name {
 	font-size: 5em;
 }
