@@ -1,0 +1,56 @@
+/* margin at top due to our fixed header */
+body {
+	margin-top:100px;
+	margin-bottom: 50px;
+	background-color: #dfd;
+}
+
+#sexy-name {
+	font-size: 5em;
+}
+
+/* stuff to hide for animation */
+#sexy-name, #content1, #content2 {
+	opacity: 0;
+}
+
+#duck-pic {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+textarea {
+	min-width: 50%;
+	width: 50%;
+	min-height: 200px;
+}
+
+table {
+	width: 100%;
+	border: 1px solid black;
+	background-color: #ddd
+}
+
+table tr:nth-child(2n){
+	background-color: #aaa;
+}
+
+table tr:nth-child(2n+1){
+	background-color: #eee;
+}
+
+table tr:nth-child(1){
+	background-color: black;
+	color: white;
+	font-size: 2em;
+}
+
+.cold {
+	color: cornflowerblue;
+}
+
+.hot {
+	color: #e22;
+}
+
+
